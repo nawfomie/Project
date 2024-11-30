@@ -1,0 +1,46 @@
+.navbar {
+    background-image: url("image/cta-bg.jpg");
+    padding: 10px 20px;
+    position: fixed; /* Fixed position */
+    width: 100%; /* Full width */
+    top: 0; /* Stick to the top */
+    z-index: 1000; /* Ensure it's above other content */
+}
+body{
+    background-image: url("image/tv-series-bg\ \(1\).jpg");
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center; /* Center vertically */
+    
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Flexbox for horizontal layout */
+    margin-right: 100px;
+}
+
+.nav-links li {
+    margin-left: 200px; /* Space between links */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px; /* Padding around links */
+    transition: background-color 0.3s; /* Smooth background change */
+}
+
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Light hover effect */
+    border-radius: 4px; /* Rounded corners on hover */
+}
